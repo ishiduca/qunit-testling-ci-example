@@ -1,0 +1,24 @@
+{
+   "devDependencies" : {
+      "qunit-tap" : "1.4.x",
+      "qunitjs" : "1.10.x"
+   },
+   "version" : "0.0.0",
+   "name" : "qunit-testling-ci-example",
+   "author" : "ishiduca@gmail.com",
+   "testling" : {
+      "files" : "t/*.js",
+      "browsers" : [
+         "ie/6..latest",
+         "ff/12..latest",
+         "chrome/20..latest",
+         "safari/latest",
+         "opera/11.0..latest",
+         "android-browser/4.2",
+         "iphone/6.0..latest",
+         "ipad/6.0..latest"
+      ]
+   },
+   "license" : "MIT",
+   "main" : "./index"
+}

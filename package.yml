@@ -1,0 +1,19 @@
+name: qunit-testling-ci-example
+version: 0.0.0
+main: ./index
+author: ishiduca@gmail.com
+license: MIT
+devDependencies:
+  qunitjs: 1.10.x
+  qunit-tap: 1.4.x
+testling:
+  browsers:
+    - ie/6..latest
+    - ff/12..latest
+    - chrome/20..latest
+    - safari/latest
+    - opera/11.0..latest
+    - android-browser/4.2
+    - iphone/6.0..latest
+    - ipad/6.0..latest
+  files: t/*.js
